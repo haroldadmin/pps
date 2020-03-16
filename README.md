@@ -40,6 +40,18 @@ Open: Port 53
 --------------------
 ```
 
+The default timeout duration for a port connection attempt is 1 second. It can be configured with the `timeout` argument.
+
+```bash
+pps --hostname 192.168.1.2 --parallelism 1 --timeout 10
+
+--------------------
+Parallel Port Scanner
+Scanning 192.168.1.2 with 1 goroutines
+Open: Port 53
+--------------------
+```
+
 ## Disclaimer
 
 If it wasn't clear from the name of the tool already (*PPs*), this project meant solely as a fun learning experience. *I do not recommend using it as a tool in your network-utilities belt.*
