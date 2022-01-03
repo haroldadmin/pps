@@ -30,7 +30,6 @@ release:
   github:
     name: pps
     owner: haroldadmin
-  draft: true
   mode: keep-existing
 
 brews:
@@ -41,4 +40,3 @@ brews:
     folder: Formula
     homepage: "https://github.com/haroldadmin/pps"
     description: "Parallel port scanner, not intended for real use"
-    skip_upload: true
